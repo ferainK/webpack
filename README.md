@@ -1,6 +1,11 @@
 # Webpack 사용 방법
 ```c
-$ npx
+// 레포지토리 복제
+$ npx degit ferainK/webpack.git 폴더명
+
+//주요 명령어
+$ npm run dev       //개발자 모드
+$ npm run bulid     //배포
 ```
 1. html / js / static폴더 변경 시, `webpack.config.js`에 반영해주세요.
 2. `./static`에 favicon.ico를 추가해주세요.
